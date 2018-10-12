@@ -1,0 +1,2 @@
+// AE Sandbox
+app.activate()

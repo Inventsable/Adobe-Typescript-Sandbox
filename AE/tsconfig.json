@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outFile": "./compile.jsx",
+    "allowJs": true,
+    "noLib": true,
+    "module": "commonjs",
+    "types": [
+      "types-for-adobe/AfterEffects/2018"
+    ]
+  },
+  "files": [
+    "main.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outFile": "./compile.jsx",
+    "allowJs": true,
+    "noLib": true,
+    "module": "commonjs",
+    "types": [
+      "types-for-adobe/Audition/2018"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
