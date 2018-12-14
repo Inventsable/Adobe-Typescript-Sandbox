@@ -2,7 +2,7 @@
 
 ![](https://thumbs.gfycat.com/ImpressiveFondGreatargus-size_restricted.gif)
 
-* The above is using my personal fork of renderTom's Adobe Script Runner, but I'll make a dedicated typescript extension for VSCode that will have the same functionality (and replace some of these steps automatically).
+* The above is using a personal fork of renderTom's [Adobe Script Runner](https://github.com/rendertom/VSCode-Adobe-Script-Runner), but I'll make a dedicated typescript extension for VSCode that will have the same functionality (and replace some of these steps automatically).
 
 ``` bash
 # Clone repository
@@ -27,4 +27,6 @@ npm install pravdomil/types-for-adobe
 # For added control, you can explicitly define which .ts files are compiled into which .jsx.
 ```
 
+## Compile on save will not work unless you hit Ctrl+Shift+B and run a Task to watch the file: `tsc: watch - (relative path to tsconfig.json)`
 
+![](https://thumbs.gfycat.com/NeighboringLivelyLeopard-size_restricted.gif)

@@ -1,2 +1,1 @@
-// AE Sandbox
 app.activate()

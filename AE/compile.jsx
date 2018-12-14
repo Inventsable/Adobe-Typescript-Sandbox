@@ -1,1 +1,1 @@
-// Testing emit
+app.activate();
