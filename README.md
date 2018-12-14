@@ -1,13 +1,30 @@
-Personal quick-scripting spaces using [Pravdomil's type declarations](https://github.com/pravdomil/types-for-adobe#readme).
+## Personal quick-scripting spaces using [Pravdomil's type declarations](https://github.com/pravdomil/types-for-adobe#readme):
+
+![](https://thumbs.gfycat.com/ImpressiveFondGreatargus-size_restricted.gif)
+
+* The above is using my personal fork of renderTom's Adobe Script Runner, but I'll make a dedicated typescript extension for VSCode that will have the same functionality (and replace some of these steps automatically).
 
 ``` bash
 # Clone repository
 git clone https://github.com/Inventsable/Adobe-Typescript-Sandbox.git
 
-# Install node dependencies, brackets optional for manual install:
-npm install
+# Install node dependencies (currently commented out because node_modules is not in .gitignore and will be included in git clone)
+# npm install
+
+# Now when using VSCode with no additional plugins/extensions (or Atom or any Editor with Typescript plugins/extensions enabled), typing anything into the app/main.ts files will demonstrate autocomplete and access to the OMV.
 ```
 
-## [Preview and manual setup for Atom](https://github.com/Inventsable/Atom-CEP-TypeScript/blob/master/SETUP.md)
+## If doing a manual setup for your own project:
 
-![demo](https://thumbs.gfycat.com/ThoughtfulImpressiveGrasshopper-size_restricted.gif)
+``` bash
+# Create a package.json in the root folder of your project if one doesn't already exist:
+npm init -y
+
+# Install the type declarations
+npm install pravdomil/types-for-adobe
+
+# Place the corresponding tsconfig.json file into your scripting folder like above.
+# For added control, you can explicitly define which .ts files are compiled into which .jsx.
+```
+
+
