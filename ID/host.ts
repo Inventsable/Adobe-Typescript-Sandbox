@@ -1,0 +1,2 @@
+var doc = app.activeDocument;
+
